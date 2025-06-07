@@ -57,3 +57,6 @@ collections:
     output: true
     permalink: /proyectos/:name/
 baseurl: "/examenfinal"
+collections:
+  proyectos:
+    output: true

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Mis Proyectos
+title: "Proyectos"
 permalink: /proyectos/
 ---
 
@@ -8,6 +8,7 @@ permalink: /proyectos/
 
 <ul>
   {% for proyecto in site.proyectos %}
-    <li><a href="{{ proyecto.url }}">{{ proyecto.title }}</a></li>
+    <li><strong>{{ proyecto.title }}</strong>: {{ proyecto.content | markdownify }}</li>
   {% endfor %}
 </ul>
+
