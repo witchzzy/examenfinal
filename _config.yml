@@ -32,7 +32,7 @@ plugins:
 collections:
   proyectos:
     output: true
-
+    permalink: /proyectos/:name/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
