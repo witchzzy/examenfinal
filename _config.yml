@@ -18,19 +18,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Mi Sitio con jekyll
+title: Mi Sitio con Jekyll
 email: ncastellanosc1@miumg.edu.gt
-description: >- # this means to ignore newlines until "baseurl:"
-  Proyecto para examen final
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-Author: Niza Castellanos
+description: Proyecto para examen final
+baseurl: "/examenfinal"
+url: "https://witchzzy.github.io"
+author: Niza Castellanos
 
-
-# Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+collections:
+  proyectos:
+    output: true
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -51,12 +53,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-collections:
-  proyectos:
-    output: true
-    permalink: /proyectos/:name/
-baseurl: "/examenfinal"
-collections:
-  proyectos:
-    output: true
