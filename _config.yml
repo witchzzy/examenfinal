@@ -56,3 +56,4 @@ collections:
   proyectos:
     output: true
     permalink: /proyectos/:name/
+baseurl: "/examenfinal"
